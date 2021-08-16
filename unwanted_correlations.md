@@ -1,7 +1,7 @@
 ## Unwanted correlations
 
-I am training neural networks to detect some objects by their shapes. The problem is that the photo sets are not color-balanced
-- that is there are correlations between the object color and the object type - so the networks are probably learning it instead of recognizing the shapes.
+I am training neural networks to detect some objects by their shapes. The problem is that the photo sets are not color-balanced - that is
+there are correlations between the object color and the object type - so the networks are probably learning it instead of recognizing the shapes.
 
 I would like to have two tools - fist is to measure the bad correlation in the data set. The second is a tool for helping choosing
 photos from a photo set to create a more color balanced data set. The second one might be difficult.
