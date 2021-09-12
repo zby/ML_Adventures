@@ -19,11 +19,12 @@
 # in the templates via {{ site.myvariable }}.
 
 title: ML Adventures
+author: Zbigniew Łukasiak
 email: zzbbyy@*NO SPAM*gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Documenting adventures of an oldshool programmer with the new Machine Learning stuff
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://zby.github.io/ML_Adventures/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://zby.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: zby
 github_username:  zby
 
@@ -33,6 +34,7 @@ theme:  minima
 plugins:
   #  - jekyll-remote-theme 
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
