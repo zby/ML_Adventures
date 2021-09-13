@@ -18,6 +18,8 @@ I tried measuring that bias - as described in
 But then I noticed that the images that don't work have the special property that
 they end up in my data pipeline as rectangles - while all the rest is processed into
 squares.
+<!--more-->
+
 And then I noticed that he bbox is evidently expanded in the direction of the smaller side.
 
 My first fix was to pad the images with black - so that they become squares too. That worked
