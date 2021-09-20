@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Sources of Imprecision"
+title:  "Debugging Machine Learning"
 date:   2021-09-01 15:49:32 +0200
-categories: questions
+categories:
 ---
 
 Neural networks are close to being black boxes. You train a network and check if it works - but if it doesn't
@@ -26,3 +26,6 @@ My first fix was to pad the images with black - so that they become squares too.
 but I was not satisfied. So I looked into the code and voila - width and height are mismatched in 
 one place. As long as the pictures are squares they are equal and the mismatch does not matter.
 
+That showed a big improvement - the training on the new data works and the accuracy is better
+but it is still far from good, and I still don't know how much training data
+I need to reach reasonable accuracy.
